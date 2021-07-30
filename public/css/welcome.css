@@ -1,0 +1,31 @@
+body{
+    background-color:#CDF0EA;
+}
+.content{
+    text-align: center;
+    margin-top: 15%;
+}
+h1{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.btns{
+    margin: 30px;
+    
+}
+.login{
+    display: inline-block;
+    margin:10px;
+}
+.signup{
+    display: inline-block;
+    margin:10px;
+}
+.btn{
+     background-color: blanchedalmond;
+     font-weight: bold;
+     font-style: italic;
+     border:1px black solid;
+     
+}

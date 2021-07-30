@@ -1,0 +1,15 @@
+<%- include("patials/header");-%>
+
+<h1>Change</h1>
+
+<form class="" action="/change" method="post">
+  <label for="">Title</label>
+  <br>
+  <input type="text" name="title" value="<%= title %>" width="100"><br>
+  <label for="">Post</label><br>
+  <textarea name="body" rows="5" cols="100"  value="<%= bodyy %>"></textarea><br>
+  <button  class="btn btn-dark" type="submit" name="button">Confirm Edit</button>
+
+</form>
+
+<%- include("patials/footer"); -%>

@@ -1,15 +1,26 @@
 <%- include('patials/header'); -%>
 
 
-    <h1>Home</h1>
+    <h2>Home</h2>
     <p><%= line1 %></p>
 
     <% for(var i=0;i<posts.length;i++){ %>
-      <form class="" action="/delete" method="post">
-        <h1><%= posts[i].tittle %></h1>
-        <p><%= posts[i].body %></p>
-        <button type="submit" name="button" value="<%= posts[i].tittle %>" class="btn btn-danger">Delete</button>
 
+      <h3>
+        <%= posts[i].title %>
+      </h3>
+      <p>
+        <%= posts[i].body %>
+      </p>
+
+      <form class="" action="/delete" method="post">
+       
+        <button type="submit" name="button" value="<%= posts[i].title %>" class="btn btn-danger">Delete</button>
+
+      </form>
+
+      <form class="" action="/edit" method="post">
+        <button  type="submit" name="button1" style="float:right;" value="<%= posts[i].title %>" class="btn btn-warning "> Edit</button>
       </form>
 
 

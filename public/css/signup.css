@@ -1,0 +1,50 @@
+body{
+    background-color:#CDF0EA;
+}
+h2{
+    text-align: center;
+    margin-top: 150px;
+    font-style: italic;
+    font-weight: lighter;
+
+}
+
+.form-content{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 10px 10px 10px 10px;
+    height: 200px;
+    
+}
+.inputs{
+    display: inline-block;
+    margin:10px;
+
+
+}
+input{
+    height: 40px;
+    width: 250px;
+}
+button{
+    background-color: burlywood;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 8px;
+    border: 1px;
+    margin: 5px;
+}
+.btn{
+    background-color: burlywood;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 8px;
+    border: 1px;
+    margin: 5px;
+
+}
+
+

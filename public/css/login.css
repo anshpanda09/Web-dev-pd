@@ -1,0 +1,43 @@
+body
+{
+    background-color:#CDF0EA;
+}
+
+h2{
+    text-align: center;
+    margin-top: 150px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.content
+{
+   
+    text-align:center;
+    margin-top: 150px;
+    box-shadow: black 5px ;
+}
+.user{
+    margin:20px;
+    
+
+}
+.pass{
+    margin:20px;
+}
+
+.input1{
+    border: black 1px solid;
+    border-radius: 8px;
+    height: 30px;
+    width:300px;
+}
+button
+{
+    border-radius: 8px;
+    height:50px;
+    width: 100px;
+    background-color: bisque;
+    font-weight: normal;
+}
